@@ -1,0 +1,19 @@
+---
+cameraResolution: [640, 480]
+cameraFramerate: 16
+yawMin: 90
+yawMax: 180
+pitchMin: -20
+pitchMax: 20
+device: 
+  deviceID: 49
+  deviceBaudrate: 9600
+  deviceMode: "rtu"
+  registers:
+    PC1: 30007
+    PC2: 30009
+    PC3: 30011
+    PC4: 30013
+    Tb: 30015
+    Status: 30051
+  
